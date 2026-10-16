@@ -17,7 +17,7 @@ const DEFAULT_SHELL_SETTINGS = Object.freeze({
     userControlVisible: false,
     transferAnimation: Object.freeze({
       enabled: true,
-      durationMs: 1000,
+      durationMs: 500,
       speedLevelsMs: Object.freeze([500, 1000, 1500]),
       safetyBufferMs: 180
     }),
@@ -37,7 +37,7 @@ const DEFAULT_SHELL_SETTINGS = Object.freeze({
     userControlVisible:true,
     defaultPercent:100,
     minPercent:80,
-    maxPercent:140,
+    maxPercent:200,
     stepPercent:10,
     persistPreference:true
   }),
@@ -55,7 +55,7 @@ const DEFAULT_SHELL_SETTINGS = Object.freeze({
     stepDurationMs: 1000
   }),
   liveStepScroll: Object.freeze({
-    maxWaitMs: 900,
+    maxWaitMs: 300,
     bottomInsetPx: 28
   }),
   pagination: Object.freeze({
